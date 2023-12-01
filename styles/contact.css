@@ -1,0 +1,24 @@
+/* Developer: Phurpa Sherpa, IS117-003, Fall 2023*/
+body {
+    background-color: rgb(197, 181, 159,0.2);
+}
+ul.list-unstyled {
+    border: 3px black;
+    padding: 10px 10px
+}
+#contact-form {
+    padding-left: 10px;
+}
+footer {
+    background-color: lightgoldenrodyellow;
+    clear: both;
+    color: white;
+    text-align: center;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    padding: 10px;
+    font-size: 0.5rem;
+}

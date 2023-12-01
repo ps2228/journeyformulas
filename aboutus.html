@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Developer: Phurpa Sherpa, IS117-003, Fall 2023 -->
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Journey Formulas Cart</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+          integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles/aboutus.css">
+</head>
+<body>
+<!-- navbar -->
+<nav class="navbar navbar-expand-lg py-3 sticky-top bg-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">
+            <!--suppress CheckImageSize -->
+            <img class="logo" src="images/logo.png" width="48px" height="48px" alt="logo">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav mx-auto" style="width: 200px;">
+                <li class="nav-item dropdown ms-lg-5">
+                    <a class="nav-link dropdown-toggle text-dark" href="product.html" role="button" data-bs-toggle="dropdown"
+                       aria-expanded="false">
+                        Product
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="order.html">Cart</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item dropdown ms-lg-5">
+                    <a class="nav-link active dropdown-toggle text-dark" aria-current="page" href="index.html"
+                       role="button"
+                       data-bs-toggle="dropdown" aria-expanded="false">
+                        <strong>Home</strong>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="aboutus.html">About Us</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item ms-lg-5">
+                    <a class="nav-link text-dark" href="contact.html">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!--carousel -->
+<div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+        <div class="carousel-item active">
+            <img src="images/middleeast.jpeg" class="d-block w-100" width="800" height="500" alt="arab culture">
+        </div>
+        <div class="carousel-item">
+            <img src="images/islam2.jpeg" class="d-block w-100" width="800" height="500" alt="mosque">
+        </div>
+        <div class="carousel-item">
+            <img src="images/riseoffood.jpg" class="d-block w-100" width="500" height="500"
+                 alt="popularization of middle east dishes">
+        </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+    </button>
+</div>
+<main>
+    <!-- content -->
+    <section class="py-3 py-md-5">
+        <div class="container">
+            <div class="row gy-3 gy-md-4 gy-lg-0 align-items-lg-center">
+                <div class="col-12 col-lg-6 col-xl-5">
+                    <img class="img-fluid rounded" loading="lazy" src="images/logotran.png" alt="logo">
+                </div>
+                <div class="col-12 col-lg-6 col-xl-7">
+                    <div class="row justify-content-xl-center">
+                        <div class="col-12 col-xl-11">
+                            <h2 class="mb-3">Who Are We?</h2>
+                            <p class="lead fs-4 text-secondary mb-3">Journey Formulas is a flavor house that seeks to
+                                provide its customers with delicious, healthy flavor extracts, as well as other
+                                simplified, health-focused products.</p>
+                            <p class="mb-5">Our approach to products is simple, we look for the most nutritious manner
+                                of making your favorite flavorings, as well as other fitness & wellness related products
+                            </p>
+                            <div class="row gy-4 gy-md-0 gx-xxl-5X">
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex">
+
+                                        <div>
+                                            <h2 class="h4 mb-3">Diversity</h2>
+                                            <p class="text-secondary mb-0">There is a need for more diversity and
+                                                inclusion of products from different cultures</p>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="col-12 col-md-6">
+                                    <div class="d-flex">
+                                        <div>
+                                            <h2 class="h4 mb-3">Audience</h2>
+                                            <p class="text-secondary mb-0">We aim to target the middle-east population
+                                                through the flavoring of a popular desert introducing flavoring in a nutritious manner and also create
+                                                fitness & wellness products.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+</main>
+
+<!-- footer -->
+<footer class="footer page-footer font-small sticky-bottom">
+    <div class="container">
+        <div class="row">
+            <span class="text-muted">&copy; Phurpa Sherpa, 2023  |  Terms Of Use  |  Privacy Statement  |  Journey Formulas
+            </span>
+        </div>
+    </div>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3O3kuXlM2pDk6p1Wu29YaaCZytlKx8tTn6phw="
+        crossorigin="anonymous"></script>
+</body>
+</html>
